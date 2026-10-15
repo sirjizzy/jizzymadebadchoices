@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Home | [Brand Name]</title>
+<style>
+:root{--bg:#f6f8fa;--surface:#ffffff;--ink:#1c2430;--muted:#5b6675;--line:#d8dee6;--link:#1f5fbf;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#12161c;--surface:#1a2029;--ink:#e6ebf1;--muted:#9aa5b3;--line:#2c3540;--link:#7fb0ff;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+header{border-bottom:1px solid var(--line);background:var(--surface)}
+.bar{max-width:46rem;margin:0 auto;padding:1rem 1.25rem;display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;align-items:baseline;justify-content:space-between}
+.brand{font-weight:700;font-size:1.1rem;color:var(--ink);text-decoration:none}
+nav a{color:var(--muted);text-decoration:none;margin-left:1.25rem}
+nav a:first-child{margin-left:0}
+nav a[aria-current]{color:var(--ink);font-weight:600}
+nav a:hover,nav a:focus-visible{color:var(--link)}
+main{max-width:46rem;margin:0 auto;padding:2.5rem 1.25rem 4rem}
+h1{font-size:2rem;line-height:1.2;margin:0 0 .5rem}
+h2{font-size:1.2rem;margin:2.25rem 0 .5rem}
+p,li{color:var(--ink)}
+ul{padding-left:1.25rem}
+a{color:var(--link)}
+a:focus-visible{outline:2px solid var(--link);outline-offset:2px}
+footer{max-width:46rem;margin:0 auto;padding:0 1.25rem 3rem;color:var(--muted);font-size:.9rem}
+</style>
+</head>
+<body>
+<header><div class="bar"><a class="brand" href="index.html">[Brand Name]</a><nav><a href="index.html" aria-current="page">Home</a><a href="terms.html">Terms of Service</a><a href="privacy.html">Privacy Policy</a></nav></div></header>
+<main>
+<h1>[Brand Name]</h1>
+<p>[Brand Name] uses a small publishing tool to post videos and photos to its own TikTok account through TikTok's official Content Posting API.</p>
+<p>The tool only accesses an account after the account owner approves it on TikTok's login screen, and that access can be removed at any time from TikTok's app permission settings.</p>
+<p>Read our <a href="terms.html">Terms of Service</a> and <a href="privacy.html">Privacy Policy</a> to learn how the tool works and what information it uses.</p>
+</main>
+<footer>Questions? Email <a href="mailto:jizzylovebl@gmail.com">jizzylovebl@gmail.com</a></footer>
+</body>
+</html>
